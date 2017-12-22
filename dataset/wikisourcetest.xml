@@ -1,0 +1,232 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+    <siteinfo>
+        <sitename>Wikisource</sitename>
+        <dbname>enwikisource</dbname>
+        <base>https://en.wikisource.org/wiki/Main_Page</base>
+        <generator>MediaWiki 1.31.0-wmf.4</generator>
+        <case>first-letter</case>
+        <namespaces>
+            <namespace key="-2" case="first-letter">Media</namespace>
+            <namespace key="-1" case="first-letter">Special</namespace>
+            <namespace key="0" case="first-letter" />
+            <namespace key="1" case="first-letter">Talk</namespace>
+            <namespace key="2" case="first-letter">User</namespace>
+            <namespace key="3" case="first-letter">User talk</namespace>
+            <namespace key="4" case="first-letter">Wikisource</namespace>
+            <namespace key="5" case="first-letter">Wikisource talk</namespace>
+            <namespace key="6" case="first-letter">File</namespace>
+            <namespace key="7" case="first-letter">File talk</namespace>
+            <namespace key="8" case="first-letter">MediaWiki</namespace>
+            <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+            <namespace key="10" case="first-letter">Template</namespace>
+            <namespace key="11" case="first-letter">Template talk</namespace>
+            <namespace key="12" case="first-letter">Help</namespace>
+            <namespace key="13" case="first-letter">Help talk</namespace>
+            <namespace key="14" case="first-letter">Category</namespace>
+            <namespace key="15" case="first-letter">Category talk</namespace>
+            <namespace key="100" case="first-letter">Portal</namespace>
+            <namespace key="101" case="first-letter">Portal talk</namespace>
+            <namespace key="102" case="first-letter">Author</namespace>
+            <namespace key="103" case="first-letter">Author talk</namespace>
+            <namespace key="104" case="first-letter">Page</namespace>
+            <namespace key="105" case="first-letter">Page talk</namespace>
+            <namespace key="106" case="first-letter">Index</namespace>
+            <namespace key="107" case="first-letter">Index talk</namespace>
+            <namespace key="114" case="first-letter">Translation</namespace>
+            <namespace key="115" case="first-letter">Translation talk</namespace>
+            <namespace key="828" case="first-letter">Module</namespace>
+            <namespace key="829" case="first-letter">Module talk</namespace>
+            <namespace key="2300" case="first-letter">Gadget</namespace>
+            <namespace key="2301" case="first-letter">Gadget talk</namespace>
+            <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+            <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+            <namespace key="2600" case="first-letter">Topic</namespace>
+        </namespaces>
+    </siteinfo>
+    <page>
+        <title>Gettysburg Address</title>
+        <ns>0</ns>
+        <id>1</id>
+        <revision>
+            <id>5224081</id>
+            <parentid>5224080</parentid>
+            <timestamp>2015-01-29T23:41:32Z</timestamp>
+            <contributor>
+                <username>George Orwell III</username>
+                <id>127447</id>
+            </contributor>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text xml:space="preserve">{{featured}}{{Versions
+ | title  = Gettysburg Address
+ | year   = 1863
+ | author = Abraham Lincoln
+ | translator =
+ | section    =
+ | previous   =
+ | next  =
+ | portal = American Civil War/Speeches
+ | wikipedia = Gettysburg Address
+ | commonscat = Gettysburg Address
+ | edition  = yes
+ | notes    = ''The Gettysburg  Address, [[Author:Abraham Lincoln|Abraham Lincoln]]'s most famous speech and one of the most quoted political speeches in United States history, was delivered at the dedication of the [[w:Gettysburg National Cemetery|Soldiers' National Cemetery]] in Gettysburg, Pennsylvania, on November 19, 1863, during the [[w:American Civil War|American Civil War]], four and a half months after the [[w:Battle of Gettysburg|Battle of Gettysburg]].''
+
+''There are several sources of the speech: Five known manuscript copies of the Gettysburg Address are each named for the associated person who received it from Lincoln below.  All versions differ in their wording, punctuation, and structure.''
+{{listen|filename=Gettysburg_by_Britton.ogg|title=Gettysburg Address|format=[[Ogg]]}}
+}}{{TOCright}}
+* [[Gettysburg Address (Nicolay draft)|Gettysburg Address]] (1863), Nicolay draft
+* [[Gettysburg Address (Hay draft)|Gettysburg Address]] (1863), Hay draft
+* [[Gettysburg Address (Everett draft)|Gettysburg Address]] (1864), Everett copy
+* [[Gettysburg Address (Bancroft draft)|Gettysburg Address]] (1864), Bancroft copy
+* [[Gettysburg Address (Bliss copy)|Gettysburg Address]] (1864), Bliss copy
+* [[Gettysburg Address (Lincoln Memorial)|Gettysburg Address]] (1922), inscribed on the southern interior wall at the Lincoln Memorial
+
+
+* [[Inauguration of the Gettysburg Cemetery]] (1863), report in the ''Daily Illinois State Journal''
+
+[[Category:American Civil War]]
+[[category:American speeches]]</text>
+            <sha1>6y3a679qpc3nry6hezlapywyb1744cc</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>Main Page</title>
+        <ns>0</ns>
+        <id>2</id>
+        <revision>
+            <id>6760495</id>
+            <parentid>6248495</parentid>
+            <timestamp>2017-04-14T02:17:18Z</timestamp>
+            <contributor>
+                <username>Billinghurst</username>
+                <id>19801</id>
+            </contributor>
+            <comment>rm /div</comment>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text xml:space="preserve">__NOTOC__ __NOEDITSECTION__
+&lt;!--header--&gt;
+{{Main Page header}}
+
+&lt;!--left column--&gt;
+&lt;div style=&quot;float:left; width:55%&quot;&gt;&lt;div style=&quot;border:1px solid #5090C0; padding-bottom:1em&quot;&gt;
+
+&lt;h2 style=&quot;background-color:#5090C0; font-weight:bold; color:white; padding:0.3em 1em; margin:1em 0; font-size:inherit; text-align:center&quot;&gt;{{uc:{{CURRENTMONTHNAME}} }}’S FEATURED TEXT&lt;/h2&gt;
+
+&lt;div id=&quot;mf-featured-text&quot; title=&quot;{{CURRENTMONTHNAME}}’s featured text&quot; style=&quot;margin:0 1em&quot;&gt;{{featured text}}&lt;/div&gt;&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+
+&lt;h2 style=&quot;background-color:#5090C0; font-weight:bold; color:white; padding:0.3em 1em; margin:1em 0; font-size:inherit; text-align:center&quot;&gt;CURRENT COLLABORATIONS&lt;/h2&gt;
+
+&lt;div style=&quot;margin:0 1em&quot;&gt;{{Collaboration}}&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;
+
+&lt;!--right column--&gt;
+&lt;div style=&quot;float:right; width:45%&quot;&gt;&lt;div style=&quot;border:1px solid #5090C0; padding-bottom:1em; margin-left:1em&quot;&gt;
+
+&lt;h2 style=&quot;background-color:#5090C0; font-weight:bold; color:white; padding:0.3em 1em; margin:1em 0; font-size:inherit; text-align:center&quot;&gt;NEW TEXTS&lt;/h2&gt;
+
+&lt;div id=&quot;mf-new-texts&quot; title=&quot;New texts&quot; style=&quot;margin:0 1em&quot;&gt;{{new texts}}&lt;/div&gt;
+
+&lt;h2 style=&quot;background-color:#5090C0; font-weight:bold; color:white; padding:0.3em 1em; margin:1em 0; font-size:inherit; text-align:center&quot;&gt;HIGHLIGHTS&lt;/h2&gt;
+
+&lt;div id=&quot;mf-highlights&quot; title=&quot;Highlights&quot; style=&quot;margin:0 1em&quot;&gt;{{Highlights}}&lt;/div&gt;
+
+&lt;h2 style=&quot;background-color:#5090C0; font-weight:bold; color:white; padding:0.3em 1em; margin:1em 0; font-size:inherit; text-align:center&quot;&gt;EXPLORE WIKISOURCE&lt;/h2&gt;
+
+&lt;div id=&quot;mf-explore-wikisource&quot; title=&quot;Explore Wikisource&quot; style=&quot;margin:0 1em&quot;&gt;{{Explore Wikisource}}&lt;/div&gt;
+
+&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;clear:both&quot;&gt;&lt;/div&gt;
+
+&lt;!--bottom--&gt;
+{{Sisterprojects}}
+
+&lt;!-- {{Interwiki Wikisource}} --&gt;
+[[mul:]]</text>
+            <sha1>t26yowcb7uk04xbpb10ugu42quqoue4</sha1>
+        </revision>
+    </page>
+    <page>
+        <title>Declaration by United Nations</title>
+        <ns>0</ns>
+        <id>3</id>
+        <revision>
+            <id>6609775</id>
+            <parentid>4222335</parentid>
+            <timestamp>2017-01-12T11:40:53Z</timestamp>
+            <contributor>
+                <username>Paul August</username>
+                <id>137326</id>
+            </contributor>
+            <minor />
+            <comment>Paul August moved page [[1942 Declaration by the United Nations]] to [[Declaration by United Nations]]: The title of the document is &quot;Declaration by United Nations&quot;</comment>
+            <model>wikitext</model>
+            <format>text/x-wiki</format>
+            <text xml:space="preserve">{{header
+ | title    = Declaration by the United Nations
+ | author   =
+ | section  =
+ | previous =
+ | next     =
+ | year = 1942
+ | portal = World War II/United Nations
+ | wikipedia = Declaration by United Nations
+ | notes    = a World War II document agreed to on January 1, 1942 by 26 governments, several of them governments-in-exile. The parties pledged to uphold the [[Atlantic Charter]], to employ all their resources in the war against the Axis powers, and that none of the signatory nations would seek to negotiate a separate peace with Nazi Germany, Italy or Japan in the same manner that the nations of the Triple Entente had agreed not to negotiate a separate peace with any or all of the Central Powers in World War I under the [[Unity Pact]].''
+}}
+
+A Joint Declaration by the United States, the United Kingdom, the Union of Soviet Socialist Republics, China, Australia, Belgium, Canada, Costa Rica, Cuba, Czechoslovakia, Dominican Republic, El Salvador, Greece, Guatemala, Haiti, Honduras, India, Luxembourg, Netherlands, New Zealand, Nicaragua, Norway, Panama, Poland, South Africa, Yugoslavia
+
+The Governments signatory hereto,
+
+Having subscribed to a common program of purposes and principles embodied in the Joint Declaration of the President of the United States of America and the Prime Minister of the United Kingdom of Great Britain and Northern Ireland dated August 14, 1941, known as the Atlantic Charter.
+
+Being convinced that complete victory over their enemies is essential to defend life, liberty, independence and religious freedom, and to preserve human rights and justice in their own lands as well as in other lands, and that they are now engaged in a common struggle against savage and brutal forces seeking to subjugate the world,
+
+DECLARE:
+
+(1) Each Government pledges itself to employ its full resources, military or economic, against those members of the Tripartite Pact :and its adherents with which such government is at war.
+
+(2) Each Government pledges itself to cooperate with the Governments signatory hereto and not to make a separate armistice or peace with the enemies.
+
+The foregoing declaration may be adhered to by other nations which are, or which may be, rendering material assistance and contributions in the struggle for victory over Hitlerism.
+
+Done at Washington
+
+January First, 1942
+
+
+''The adherents to the Declaration by the united nations, together with the date of communication of adherence, are as follows:
+
+* Mexico — June 5, 1942
+* Philippines — June 10, 1942
+* Ethiopia — July 28, 1942
+* Iraq — Jan. 16, 1943
+* Brazil — Feb. 8, 1943
+* Bolivia — Apr. 27, 1943
+* Iran — Sept. 10, 1943
+* Colombia — Dec. 22, 1943
+* Liberia — Feb. 26, 1944
+* France — Dec. 26, 1944
+* Ecuador — Feb. 7, 1945
+* Peru — Feb. 11, 1945
+* Chile — Feb. 12, 1945
+* Paraguay — Feb. 12, 1945
+* Venezuela — Feb. 16, 1945
+* Uruguay — Feb. 23, 1945
+* Turkey — Feb. 24, 1945
+* Egypt — Feb. 27, 1945
+* Saudi — Arabia Mar. 1, 1945
+* Lebanon — Mar. 1, 1945
+* Syria — Mar. 1, 1945
+
+{{DEFAULTSORT: Declaration by the United Nations, 1942}}
+
+{{PD-UN}}
+[[Category:Declarations of the Allies of World War II]]
+[[Category:New Zealand]]
+
+[[nl:Verklaring door Verenigde Naties]]</text>
+            <sha1>gr3zd4hsxla0frxqsb090io6q7ak7qj</sha1>
+        </revision>
+    </page>
+</mediawiki>
