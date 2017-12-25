@@ -1,0 +1,2 @@
+docCount:17
+wordCount:38013
