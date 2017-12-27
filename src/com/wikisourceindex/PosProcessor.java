@@ -10,31 +10,13 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
 import static org.apache.commons.io.FileUtils.deleteDirectory;
 
 public class PosProcessor {
-    public static void writeCountToTxt(StringBuffer sb, int flag) throws IOException {
-        File file = new File("write/count.txt");
-        if (flag == 0) {
-            if (file.exists()) {
-                file.delete();
-            }
-            file.createNewFile();
-        }
-        FileWriter fw = new FileWriter(file, true);
-        BufferedWriter bw = new BufferedWriter(fw);
-        bw.write(sb.toString() + "\n");
-        bw.flush();
-        bw.close();
-        fw.close();
-    }
-
     public static class PosProcessorMapper extends Mapper<LongWritable, Text, Text, Text> {
         long docCount = 0;
 
@@ -57,8 +39,8 @@ public class PosProcessor {
 
         protected void cleanup(Mapper.Context context) throws IOException, InterruptedException {
             StringBuffer sb = new StringBuffer();
-            sb.append("docCount:").append(docCount);
-            writeCountToTxt(sb, 0);
+//            Main.conf.setStrings("docCount", String.valueOf(docCount));
+            System.out.println("docCount = " + docCount);
         }
     }
 
@@ -79,8 +61,8 @@ public class PosProcessor {
 
         protected void cleanup(Reducer.Context context) throws IOException, InterruptedException {
             StringBuffer sb = new StringBuffer();
-            sb.append("wordCount:").append(wordCount);
-            writeCountToTxt(sb, 1);
+//            Main.conf.setStrings("wordCount", String.valueOf(wordCount));
+            System.out.println("wordCount = " + wordCount);
         }
     }
 
@@ -98,7 +80,7 @@ public class PosProcessor {
         job.setOutputValueClass(Text.class);
         File outf = new File(output);
         if (outf.exists()) {
-            deleteDirectory(outf);//删除文件
+            deleteDirectory(outf);
         }
         FileOutputFormat.setOutputPath(job, new Path(output));
         job.waitForCompletion(true);

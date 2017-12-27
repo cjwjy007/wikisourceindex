@@ -10,29 +10,13 @@ import org.apache.hadoop.mapreduce.Reducer;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.FileReader;
 import java.io.IOException;
 import java.util.StringTokenizer;
 
 import static org.apache.commons.io.FileUtils.deleteDirectory;
 
 public class TFProcessor {
-    static String getWordCount() {
-        File file = new File("write/count.txt");
-        String wordCount = "";
-        BufferedReader reader = null;
-        try {
-            reader = new BufferedReader(new FileReader(file));
-            reader.readLine();
-            wordCount = reader.readLine();
-            reader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return wordCount.split(":")[1];
-    }
     public static class TFProcessorMapper extends Mapper<LongWritable, Text, Text, Text> {
         protected void map(LongWritable key, Text value, Context context)
                 throws IOException, InterruptedException {
@@ -53,12 +37,13 @@ public class TFProcessor {
         public void reduce(Text key, Iterable<Text> values, Context context) throws IOException, InterruptedException {
             Text v = new Text();
             StringBuffer sb = new StringBuffer();
-            long wordCount = Long.parseLong(getWordCount());
+//            long wordCount = Long.parseLong(Main.conf.get("wordCount"));
             long sum = 0;
             for (Text value : values) {
                 sum += 1;
             }
-            sb.append("sum:").append(sum).append(" tf:").append((double)sum/wordCount);
+            sb.append("sum:").append(sum);
+//            sb.append("sum:").append(sum).append(" tf:").append((double)sum/wordCount);
             v.set(sb.toString());
             context.write(key, v);
         }
@@ -78,7 +63,7 @@ public class TFProcessor {
         job.setOutputValueClass(Text.class);
         File outf = new File(output);
         if (outf.exists()) {
-            deleteDirectory(outf);//删除文件
+            deleteDirectory(outf);
         }
         FileOutputFormat.setOutputPath(job, new Path(output));
         job.waitForCompletion(true);
